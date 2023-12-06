@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <h2>Add User</h2>
+    <form id="userForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required>
+
+      <button type="submit">Add User</button>
+  </form>
+  <h2>Add Post</h2>
+    <form id="postForm">
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" required>
+
+      <label for="content">Content:</label>
+      <input type="text" id="content" name="content" required>
+
+      <label for="author">Author:</label>
+      <select id="author"></select>
+
+      <button type="submit">Add Post</button>
+  </form>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
